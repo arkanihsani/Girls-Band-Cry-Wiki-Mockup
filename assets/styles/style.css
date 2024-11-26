@@ -1,0 +1,134 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+   
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p {
+    color: white;
+}
+
+h1, h2, h3, figcaption {
+    color: ivory;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+body {
+    background-image: url('../image/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    background-color: rgba(128,0,0,.9);
+    border-top: 20px solid black;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-color: black;
+    border-width: 5px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding : 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.charImg {
+    border: 10px solid black;
+    transition: 1s ease;
+    backface-visibility: hidden;
+}
+
+figure {
+    margin: 5px;
+}
+
+footer {
+    padding: 30px;
+    color: ivory;
+    font-weight: bold;
+    background-color: black;
+}
+
+* {
+    margin: 0px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    color: yellow;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+li::marker {
+    color: white;
+}
+
+ol, ul {
+    color: white;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+.grid-item {
+    padding-right: 20px;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: top;
+    color: ivory;
+}
